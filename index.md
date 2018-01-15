@@ -1,2 +1,2 @@
 ##test
-[Link to another page](tessg).
+[Link to another page](test/tessg).
