@@ -1,2 +1,2 @@
 ##test
-[Link to another page](/версии/v0.4/документация).
+[Link to another page](/versions/v0.4/documentation).
