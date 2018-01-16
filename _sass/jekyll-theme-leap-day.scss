@@ -1,22 +1,4 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Explore
- @brend32
- Sign out
- Watch 0
-  Star 0  Fork 64 brend32/leap-day
-forked from pages-themes/leap-day
- Code  Pull requests 0  Projects 0  Insights  Settings
-Branch: master Find file Copy pathleap-day/_sass/jekyll-theme-leap-day.scss
-357e2d8  on 13 Dec 2016
-@benbalter benbalter normalize css naming
-1 contributor
-RawBlameHistory     
-517 lines (434 sloc)  7.87 KB
+
 /*
 Leap Day for GitHub Pages
 by Matt Graham
@@ -204,7 +186,7 @@ header {
 #banner {
   z-index: 100;
   left:0;
-  right:50%;
+  right:90%;
   height: 50px;
   margin-right:-382px;
   position: fixed;
