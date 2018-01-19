@@ -224,7 +224,7 @@ header {
   .fork {
     position:fixed;
     right:5%;
-    padding:10px 100px;
+    padding:5px;
     margin-right:0px;
     margin-top: 6px;
     line-height:14px;
@@ -232,6 +232,8 @@ header {
     background-image: url(697037-youtube-256.png);
     background-size: 35px 35px;
     background-repeat: no-repeat;
+    min-width:45px;
+    min-height:45px;
   }
 
   .downloads {
