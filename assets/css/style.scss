@@ -195,7 +195,7 @@ header {
   .button {
     //border: 1px solid black;
     border-radius: 2px;
-    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.3);
     background-color: transparent;
     margin-left: 50px;
     padding: 10px 12px;
@@ -230,10 +230,10 @@ header {
     background-image: url(697037-youtube-256.png);
     background-size: 35px 35px;
     background-repeat: no-repeat;
-    min-width:15px;
-    min-height:15px;
-    max-width:15px;
-    max-height:15px;
+    min-width:18px;
+    min-height:18px;
+    max-width:18px;
+    max-height:18px;
   }
 
   .downloads {
