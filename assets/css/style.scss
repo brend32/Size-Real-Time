@@ -432,6 +432,18 @@ footer {
     }
 
     p { display: none;}
+    .fork {
+    position:fixed;
+    right:10%;
+    margin-right:50px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-image: url(697037-youtube-256.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+  }
   }
 
   #banner {
@@ -527,6 +539,18 @@ footer {
     left:auto;
     bottom:auto;
     width:auto;
+  }
+  .fork {
+    position:fixed;
+    right:10%;
+    margin-right:50px;
+    padding: 10px 12px;
+    margin-top: 6px;
+    line-height:14px;
+    font-size:14px;
+    background-image: url(697037-youtube-256.png);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
   }
 }
 
