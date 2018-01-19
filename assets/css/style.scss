@@ -222,10 +222,11 @@ header {
   }
 
   .fork {
-    position:fixed;
+    float:rigth;
+    //position:fixed;
     background-position: center;
     margin:0 40px 0 0;
-    margin-top: 6px;
+    //margin-top: 6px;
     background-image: url(697037-youtube-256.png);
     background-size: 35px 35px;
     background-repeat: no-repeat;
