@@ -216,6 +216,10 @@ header {
     &:active{
       background: rgb(173, 173, 173);
     }
+    
+    &:focus{
+      border: gray;
+    }
   }
 
   .fork {
