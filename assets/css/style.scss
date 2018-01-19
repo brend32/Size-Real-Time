@@ -194,7 +194,7 @@ header {
 
   .button {
     border: 1px solid #dba500;
-    background: linear_gradient(to bottom, rgb(124,124,124) 0%,rgb(79,79,79) 100%);
+    background: radial-gradient(ellipse at center, rgb(160,160,160) 0%,rgb(53,53,53) 85%);
     border-radius: 2px;
     box-shadow: inset 0px 1px 0px rgba(255,255,255,.4), 0px 1px 1px rgba(0,0,0,.1);
     background-color: #FFE788;
@@ -209,7 +209,7 @@ header {
     text-align:center;
 
     &:hover {
-      background: linear-gradient(to bottom, rgb(186,186,186) 0%,rgb(137,137,137) 100%);
+      background: radial-gradient(ellipse at center, rgb(198,198,198) 1%,rgb(94,94,94) 86%);
       background-color: #ffeca0;
     }
   }
@@ -222,8 +222,6 @@ header {
     margin-top: 6px;
     line-height:14px;
     font-size:14px;
-    background-color: #FFE788;
-    background: url(../images/octocat-logo.png);
   }
 
   .downloads {
