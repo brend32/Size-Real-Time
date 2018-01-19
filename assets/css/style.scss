@@ -63,7 +63,7 @@ a small {
 }
 
 ul{
-  list-style-image:url('../images/bullet.png');
+  list-style-background:red;
 }
 
 strong {
@@ -217,7 +217,7 @@ header {
   .fork {
     position:fixed;
     right:10%;
-    margin-left:-350px;
+    margin-right:50px;
     padding: 10px 12px;
     margin-top: 6px;
     line-height:14px;
