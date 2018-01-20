@@ -10,6 +10,7 @@
 use bundle\sizerealtime\sizerealtime;
 ```
 Для удобства можно сделать так:
+<a href="https://www.youtube.com/channel/UCATCV8pfte6-lyUy0sjGXUQ" class="button fork"><strong>ff</strong></a>
 ```php
 /**
  * @var sizerealtime
