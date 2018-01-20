@@ -4,7 +4,7 @@
 
 <br>
 
-## Подключение(Conect)
+## Подключение (Conect)
 Убедитесь что в коде присутствует такая срока:
 ```php
 use bundle\sizerealtime\sizerealtime;
@@ -27,12 +27,20 @@ use bundle\sizerealtime\sizerealtime;
 
 <br>
 
-# MЕТОДЫ
-* ## Cписок
+# Методы (Functions)
+* ## Список (List)
   * **[СonnectObjects](#connectobjects)**
-* ## ConnectObjects
+* ## ConnectObjects()
   Функция добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
   ```php 
-  function
+  ConnectObjects(string $formName): return array
+  ```
+  Пример:
+  ```php 
+  use bundle\sizerealtime\sizerealtime;
+  
+  $SizeRealTime = new sizerealtime();
+  $formName = $this->getContextFormName();
+  $SizeRealTime->ConnectObjects($formName);
   ```
 * ## ff
