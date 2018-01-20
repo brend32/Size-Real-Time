@@ -27,8 +27,8 @@ use bundle\sizerealtime\sizerealtime;
 
 <br>
 
-## МЕТОДЫ
-* ## Список
+# MЕТОДЫ
+* ## Cписок
   * **[СonnectObjects](#connectobjects)**
 * ## ConnectObjects
   Функция добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
