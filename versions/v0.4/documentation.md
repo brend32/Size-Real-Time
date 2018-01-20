@@ -4,7 +4,7 @@
 
 <br>
 
-## Подключение
+## Подключение(Conect)
 Убедитесь что в коде присутствует такая срока:
 ```php
 use bundle\sizerealtime\sizerealtime;
