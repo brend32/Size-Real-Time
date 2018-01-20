@@ -9,8 +9,8 @@
 ```php
 use bundle\sizerealtime\sizerealtime;
 ```
+--------------
 Для удобства можно сделать так:
-<a href="https://www.youtube.com/channel/UCATCV8pfte6-lyUy0sjGXUQ" class="button fork"><strong>ff</strong></a>
 ```php
 /**
  * @var sizerealtime
@@ -30,12 +30,18 @@ use bundle\sizerealtime\sizerealtime;
 
 # Методы (Functions)
 * ## Список (List)
-  * **[СonnectObjects](#connectobjects)**
+-------------------
+  * [СonnectObjects](#connectobjects) - _создание нужных объектов_
 * ## ConnectObjects()
+---------------------
   Функция добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
   ```php 
   ConnectObjects(string $formName): return array
   ```
+  
+  > `$formName` - название формы
+  
+  -----------------------
   Пример:
   ```php 
   use bundle\sizerealtime\sizerealtime;
@@ -44,4 +50,5 @@ use bundle\sizerealtime\sizerealtime;
   $formName = $this->getContextFormName();
   $SizeRealTime->ConnectObjects($formName);
   ```
+  
 * ## ff
