@@ -29,12 +29,13 @@ use bundle\sizerealtime\sizerealtime;
 <br>
 
 # Методы (Functions)
+***
 * ## Список (List)
 ***
   * [СonnectObjects](#connectobjects) - _создание нужных объектов_
 * ## ConnectObjects()
 ***
-  Функция добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
+  Добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
   ```php 
   ConnectObjects(string $formName): return array
   ```
@@ -50,5 +51,25 @@ use bundle\sizerealtime\sizerealtime;
   $formName = $this->getContextFormName();
   $SizeRealTime->ConnectObjects($formName);
   ```
-  
+  ***
 * ## setTarget()
+***
+  Устанавливает цель на передаваемый `объект`, `на передаваемой форме(не обязательно)`, по его `id`.
+  ```php 
+  setTarget(string $object, [$form = null, $array = null]): return null
+  ```
+  
+  > `$object` - `id` объекта
+    `$form` - `id` формы
+    `$array` - массив с `id` компонентов добавленых с помощью `ConnectObjects`
+  
+***
+  Пример:
+  ```php 
+  use bundle\sizerealtime\sizerealtime;
+  
+  $SizeRealTime = new sizerealtime();
+  $formName = $this->getContextFormName();
+  $SizeRealTime->ConnectObjects($formName);
+  ```
+  ***
