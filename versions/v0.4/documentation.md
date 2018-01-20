@@ -29,7 +29,7 @@ use bundle\sizerealtime\sizerealtime;
 
 ## МЕТОДЫ
 * ## Список
-  * [**СonnectObjects**](#connectobjects)
+  * **[СonnectObjects](#connectobjects)**
 * ## ConnectObjects
   Функция добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
   ```php 
