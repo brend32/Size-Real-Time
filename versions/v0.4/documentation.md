@@ -9,7 +9,7 @@
 ```php
 use bundle\sizerealtime\sizerealtime;
 ```
---------------
+***
 Для удобства можно сделать так:
 ```php
 /**
@@ -30,10 +30,10 @@ use bundle\sizerealtime\sizerealtime;
 
 # Методы (Functions)
 * ## Список (List)
--------------------
+***
   * [СonnectObjects](#connectobjects) - _создание нужных объектов_
 * ## ConnectObjects()
----------------------
+***
   Функция добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
   ```php 
   ConnectObjects(string $formName): return array
@@ -41,7 +41,7 @@ use bundle\sizerealtime\sizerealtime;
   
   > `$formName` - название формы
   
-  -----------------------
+***
   Пример:
   ```php 
   use bundle\sizerealtime\sizerealtime;
