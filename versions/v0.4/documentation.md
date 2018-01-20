@@ -51,4 +51,4 @@ use bundle\sizerealtime\sizerealtime;
   $SizeRealTime->ConnectObjects($formName);
   ```
   
-* ## setTarget
+* ## setTarget()
