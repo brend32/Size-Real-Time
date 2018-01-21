@@ -27,14 +27,15 @@ by Matt Graham
 .highlight .nt {
   color: #f4bf75;
 }
-.highlight .o, .highlight .ow {
+ .highlight .ow {
   color: #d0d0d0;
 }
-.highlight .p{
+.highlight .o,.highlight .p{
 color: #23c0ae;
 }
 .highlight .pi, .highlight .nf , .highlight .nx {
-  color: #d0d0d0;
+  /*color: #d0d0d0;*/
+  color:rgb(255,255,255);
 }
 .highlight .gi {
   color: #90a959;
