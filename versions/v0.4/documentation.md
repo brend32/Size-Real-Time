@@ -22,7 +22,8 @@ use bundle\sizerealtime\sizerealtime;
  */
  function doConstruct(UXEvent $e = null)
  {   
-  $this->sizerealtime = new sizerealtime();  
+  $this->sizerealtime = new sizerealtime();
+  "ff" 'ddd'
  }
 ```
 
