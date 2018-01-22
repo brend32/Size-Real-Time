@@ -186,7 +186,7 @@ blockquote {
 }
 
 code {
-  font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
+  /*font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;*/
   font-size:13px;
   color:rgb(199, 37, 78);
   margin: 0 4px;
@@ -197,7 +197,7 @@ code {
 
 pre {
   padding:8px 15px;
-  background: #333333;
+  background: rgb(41,49,52);
   border-radius: 3px;
   border:1px solid #c7c7c7;
   overflow: auto;
@@ -209,7 +209,7 @@ pre {
     font-family: 'Lucida Sans', Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
     font-size:13px;
     text-shadow: 0px 1px 0px #000;
-    background: #333;
+    background: rgb(41,49,52);
     border-radius: 2px;
   }
 }
