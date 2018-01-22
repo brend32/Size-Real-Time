@@ -5,7 +5,7 @@
 <br>
 ## Versions
  * `v 0.4` - [Документация](versions/v0.4/documentation), [Скачать](https://drive.google.com/open?id=1B5Bic6fJ_JK8n2ufGzDHS1zq2nInPfyu)
-# Список изминений (Change list)
+# Список изминений (Change log)
 ## v0.4
   * Добавлены 2 методы `blockedSizers`, `onlyDragging`
   * Добавлено 2 константы `VERSION`, `DEVELOPER`
