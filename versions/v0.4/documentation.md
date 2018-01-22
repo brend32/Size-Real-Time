@@ -36,6 +36,7 @@ use bundle\sizerealtime\sizerealtime;
   * [СonnectObjects](#connectobjects) - _создание нужных объектов_<br>
   * [setTarget](#settarget) - _устанавливает цель на передаваемий объект_
   * [reloadObjects](#reloadobjects) - _применяет изменение в переменных класса или массиве_
+  
 ## ConnectObjects()
 ***
   Добавляет нужные объекты, `на передаваемую форму`,  и возвращает массив с их `id`.
